@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyToken DApp</title>
+    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
+</head>
+<body>
+    <h2>Connect Metamask</h2>
+    <button id="connectButton">Connect Wallet</button>
+    <p>Address: <span id="address"></span></p>
+    <p>Balance: <span id="balance"></span> MTK</p>
+
+    <h3>Mint Tokens</h3>
+    <input type="text" id="mintAddress" placeholder="Recipient Address">
+    <input type="number" id="mintAmount" placeholder="Amount">
+    <button id="mintButton">Mint</button>
+
+    <h3>Burn Tokens</h3>
+    <input type="text" id="burnAddress" placeholder="Address">
+    <input type="number" id="burnAmount" placeholder="Amount">
+    <button id="burnButton">Burn</button>
+
+    <script src="app.js"></script>
+</body>
+</html>
