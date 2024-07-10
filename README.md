@@ -282,5 +282,3 @@ document.getElementById('burnButton').addEventListener('click', async () => {
 });
 ```
 
-## License
-This project is licensed under the MIT License.
